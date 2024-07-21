@@ -1,20 +1,34 @@
-# Supplementary code for the article "Optimal switching strategies for navigation in stochastic settings"
+# Supplementary Code for "Optimal Switching Strategies for Navigation in Stochastic Settings"
 
-The code allows to reproduce the numerical simulations presented in the paper and supplemental material. The code is divided into different python files notebooks, that correspond to the reproduction fo different figures.
+This repository contains the code to reproduce the numerical simulations presented in the paper and supplementary material. The code is organized into different Python files and notebooks, each corresponding to the reproduction of different figures and results from the paper.
 
-numerical_integration.py allows to numerically integrate the optimal control equations using an euler explicit scheme. It outputs the optimal activation angle as a function of time into the two files boundary_m_0.01.txt and boundary_p_0.01.txt (for the negative and positive boundaries).
+## File Descriptions
 
-trajectories_fig1.ipynb produces the sample trajectories presented in Fig. 2a of the main text.
+### numerical_integration.py
+- **Functionality**: Numerically integrates the optimal control equations using an explicit Euler scheme.
+- **Outputs**: 
+  - `boundary_m_0.01.txt` - Contains the optimal activation angle as a function of time for the negative boundary.
+  - `boundary_p_0.01.txt` - Contains the optimal activation angle as a function of time for the positive boundary.
 
-simulations.ipynb verifies, via Langevin numerical simulations, the theoretical formula for the maximal speed of the standard random walk model.
+### trajectories_fig1.ipynb
+- **Functionality**: Produces the sample trajectories presented in Fig. 2a of the main text.
 
-execution_error.ipynb verifies, via Langevin numerical simulations, the theoretical formula for the maximal speed in the presence of execution errors.
+### simulations.ipynb
+- **Functionality**: Verifies the theoretical formula for the maximal speed of the standard random walk model via Langevin numerical simulations.
 
-measurement_error.ipynb verifies, via Langevin numerical simulations, the theoretical formula for the maximal speed in the presence of measurements errors.
+### execution_error.ipynb
+- **Functionality**: Verifies the theoretical formula for the maximal speed in the presence of execution errors via Langevin numerical simulations.
 
-partial_observations.ipynb verifies, via Langevin numerical simulations, the theoretical formula for the maximal speed in the presence of partial observability.
+### measurement_error.ipynb
+- **Functionality**: Verifies the theoretical formula for the maximal speed in the presence of measurement errors via Langevin numerical simulations.
 
-first_passage.ipynb verifies, via Langevin numerical simulations, the theoretical formula for the distribution of the times between reorientations.
+### partial_observations.ipynb
+- **Functionality**: Verifies the theoretical formula for the maximal speed in the presence of partial observability via Langevin numerical simulations.
 
+### first_passage.ipynb
+- **Functionality**: Verifies the theoretical formula for the distribution of times between reorientations via Langevin numerical simulations.
 
+---
+
+Each notebook and script is designed to run independently. Please refer to the individual notebooks for detailed instructions and explanations of the numerical methods used.
 
