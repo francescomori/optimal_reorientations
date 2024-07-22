@@ -11,22 +11,29 @@ This repository contains the code to reproduce the numerical simulations present
   - `boundary_p_0.01.txt` - Contains the optimal activation angle as a function of time for the positive boundary.
 
 ### trajectories_fig1.ipynb
-- **Functionality**: Produces the sample trajectories presented in Fig. 2a of the main text.
-
+- **Functionality**: Reads the boundary files `boundary_m_0.01.txt` and `boundary_p_0.01.txt` and produces sample trajectories.
+- **Outputs**: Fig. 2a of the main text
+- 
 ### simulations.ipynb
 - **Functionality**: Verifies the theoretical formula for the maximal speed of the standard random walk model via Langevin numerical simulations.
-
-### execution_error.ipynb
-- **Functionality**: Verifies the theoretical formula for the maximal speed in the presence of execution errors via Langevin numerical simulations.
-
-### measurement_error.ipynb
-- **Functionality**: Verifies the theoretical formula for the maximal speed in the presence of measurement errors via Langevin numerical simulations.
-
-### partial_observations.ipynb
-- **Functionality**: Verifies the theoretical formula for the maximal speed in the presence of partial observability via Langevin numerical simulations.
+- **Outputs**: Fig. 2b and 2c of the main text
 
 ### first_passage.ipynb
 - **Functionality**: Verifies the theoretical formula for the distribution of times between reorientations via Langevin numerical simulations.
+-  **Outputs**: Fig. 3 of the main text
+
+
+### execution_error.ipynb
+- **Functionality**: Verifies the theoretical formula for the maximal speed in the presence of execution errors via Langevin numerical simulations.
+- **Outputs**: Fig. 4a of the main text
+  
+### measurement_error.ipynb
+- **Functionality**: Verifies the theoretical formula for the maximal speed in the presence of measurement errors via Langevin numerical simulations.
+-  **Outputs**: Fig. 4b of the main text
+
+### partial_observations.ipynb
+- **Functionality**: Verifies the theoretical formula for the maximal speed in the presence of partial observability via Langevin numerical simulations.
+- **Outputs**: Fig. 4c of the main text
 
 ---
 
