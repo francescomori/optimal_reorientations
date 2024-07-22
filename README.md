@@ -13,7 +13,7 @@ This repository contains the code to reproduce the numerical simulations present
 ### trajectories_fig1.ipynb
 - **Functionality**: Reads the boundary files `boundary_m_0.01.txt` and `boundary_p_0.01.txt` and produces sample trajectories.
 - **Outputs**: Fig. 2a of the main text
-- 
+  
 ### simulations.ipynb
 - **Functionality**: Verifies the theoretical formula for the maximal speed of the standard random walk model via Langevin numerical simulations.
 - **Outputs**: Fig. 2b and 2c of the main text
