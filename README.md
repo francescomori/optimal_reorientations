@@ -28,6 +28,9 @@ This repository contains the code to reproduce the numerical simulations present
 ### first_passage.ipynb
 - **Functionality**: Verifies the theoretical formula for the distribution of times between reorientations via Langevin numerical simulations.
 
+### non_inst.ipynb
+- **Functionality**: For the model with non-instantaneous reorientations, verifies the theoretical formula for the  maximal speed and fraction of time spent in the reorientation phase via Langevin numerical simulations.
+
 ---
 
 Each notebook and script is designed to run independently. Please refer to the individual notebooks for detailed instructions and explanations of the numerical methods used.
