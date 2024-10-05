@@ -6,7 +6,7 @@ This repository contains the code to reproduce the numerical simulations present
 
 
 ### supp_material.pdf
-Presents supplental analytical derivations and outlines the details of the numrical simulations.
+Presents supplental analytical derivations and outlines the details of the numerical simulations.
 
 ### numerical_integration.py
 - **Functionality**: Numerically integrates the optimal control equations using an explicit Euler scheme.
