@@ -39,14 +39,14 @@ Presents supplental analytical derivations and outlines the details of the numer
 - **Functionality**: Verifies the theoretical formula for the maximal speed in the presence of partial observability via Langevin numerical simulations.
 - **Outputs**: Fig. 4c of the main text
 
-### partial_observations.ipynb
+### poissonian_resetting.ipynb
 - **Functionality**: Compares the optimal strategy with the best Poissonian strategy.
 - **Outputs**: Fig. 2 of the supplementary material
 
 ### trajectories.ipynb
 - **Functionality**: Simulates random trajectories of the optimally-controlled process at different noise levels.
 - **Outputs**: Fig. 2 of the main text
-- 
+
 ### non_inst.ipynb
 - **Functionality**: For the model with non-instantaneous reorientations, verifies the theoretical formula for the  maximal speed and fraction of time spent in the reorientation phase via Langevin numerical simulations.
 
